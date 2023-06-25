@@ -11,7 +11,7 @@
 
 #themeing-----------------
 exec picom
-exec --no-startup-id /home/salty/.startup.sh
+exec --no-startup-id ~/.startup.sh
 default_border pixel
 
 gaps inner 10
