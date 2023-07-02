@@ -1,12 +1,13 @@
-sudo pacman -S dunst polybar picom feh neofetch i3 krunner brightnessctl kwallet
+sudo pacman -S dunst polybar picom feh neofetch i3 rofi brightnessctl kwallet ranger ueberzug w3m
 
-sudo -r cp i3 ~/.config
-sudo -r cp picom ~/.config
-sudo -r cp neofetch ~/.config
-sudo -r cp polybar ~/.config
+cp -r i3 ~/.config
+cp -r picom ~/.config
+cp -r neofetch ~/.config
+cp -r polybar ~/.config
+cp -r ranger ~/.config
 
-sudo cp .zshrc ~
-sudo cp .startup.sh ~
+cp -r .zshrc ~
+cp -r .startup.sh ~
 
 sudo cp pacman.conf /etc
 
