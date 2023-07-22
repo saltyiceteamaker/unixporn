@@ -91,8 +91,8 @@ bindsym $mod1+Control+f exec firefox
 bindsym $mod1+Control+t exec $terminal
 bindsym $mod1+Control+d exec discord
 bindsym $mod1+Control+s exec steam
-bindsym $mod1+Control+n exec kitty nvim
-bindsym $mod1+Control+e exec kitty ranger
+bindsym $mod1+Control+n exec $terminal nvim
+bindsym $mod1+Control+e exec $terminal ranger
 #bindsym $mod+e exec --no-startup-id rofi -show filebrowser
 
 
