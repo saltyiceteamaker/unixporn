@@ -1,4 +1,4 @@
-sudo pacman -S nvim dunst polybar picom feh neofetch i3 rofi brightnessctl kwallet ranger ueberzug w3m
+sudo pacman -S neovim dunst polybar picom feh neofetch i3-wm i3-blocks i3-lock i3-status rofi brightnessctl kwallet ranger ueberzug w3m
 
 cp -r i3 ~/.config
 cp -r picom ~/.config
