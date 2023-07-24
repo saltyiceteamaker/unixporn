@@ -1,2 +1,2 @@
-feh --bg-fill /home/salty/Pictures/Wallpapers/demon_aka__blood_anime_girl___wallpaper_by_kirigawakazuto_daziefg.jpg
+feh --bg-fill ~/unixporn/blood-night-anime.jpg
 polybar

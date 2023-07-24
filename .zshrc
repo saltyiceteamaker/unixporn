@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="salty-red"
+ZSH_THEME="bloodnight"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -99,16 +99,18 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 
 # plugins
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh/plugins/zsh-you-should-use/you-should-use.plugin.zsh
 
 # alias
 alias ls="lsd"
 alias rm="rm -r" 
+
 alias .zsh="nvim ~/.zshrc"
+alias .env="nvim ~/.zshenv"
 alias .i3="nvim ~/.config/i3/config"
 alias .polybar="nvim ~/.config/polybar/config.ini"
 alias .picom="nvim ~/.config/picom/picom.conf"
 alias .dunst="nvim ~/.config/dunst/dunstrc"
+alias .neofetch="nvim ~/.config/neofetch/config.conf"
+alias .kitty="nvim ~/.config/kitty/kitty.conf"
+
 neofetch

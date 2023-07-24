@@ -1,20 +1,22 @@
-sudo pacman -S neovim dunst polybar picom feh neofetch i3-wm i3-blocks i3-lock i3-status rofi brightnessctl kwallet ranger ueberzug w3m
+sudo pacman -S neovim dunst polybar picom feh neofetch i3-wm i3blocks i3lock i3status rofi brightnessctl kwallet ranger ueberzug w3m ttf-arimo-nerdfont
 
-cp -r i3 ~/.config
-cp -r picom ~/.config
-cp -r neofetch ~/.config
-cp -r polybar ~/.config
-cp -r ranger ~/.config
-cp -r dunst ~/.config
+cp -r ~/unixporn/i3 ~/.config
+cp -r ~/unixporn/picom ~/.config
+cp -r ~/unixporn/neofetch ~/.config
+cp -r ~/unixporn/polybar ~/.config
+cp -r ~/unixporn/ranger ~/.config
+cp -r ~/unixporn/dunst ~/.config
 
-cp .zshrc ~
-cp .zshenv ~
-cp nvim/blood-night.lua ~/.local/share/nvim/lazy/base46/lua/base46/themes
-sudo cp 90-touchpad.conf /etc/X11/xorg.conf.d/
-
-sudo cp pacman.conf /etc
+cp ~/unixporn/.zshrc ~
+cp ~/unixporn/.zshenv ~
+cp ~/unixporn/nvim/blood-night.lua ~/.local/share/nvim/lazy/base46/lua/base46/themes
+sudo cp ~/unixporn/90-touchpad.conf /etc/X11/xorg.conf.d/
+sudo cp ~/unixporn/pacman.conf /etc
 
 feh --bg-fill ~/unixporn/blood-night-anime.jpg
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+cp ~/unixporn/bloodnight.zsh-theme ~/.oh-my-zsh/themes/
 
 cd ~
 
