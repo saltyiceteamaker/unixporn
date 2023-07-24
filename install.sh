@@ -1,3 +1,4 @@
+#disclaimer: this script is meant for my lazy ass only. you may use it but i do not guarantee that it wont more stuff.
 sudo pacman -S neovim dunst polybar picom feh neofetch i3-wm i3blocks i3lock i3status rofi brightnessctl kwallet ranger ueberzug w3m ttf-arimo-nerdfont
 
 cp -r ~/unixporn/i3 ~/.config
